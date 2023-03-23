@@ -9,7 +9,9 @@ void print_numbers(void)
 	int iterator;
 
 	for (iterator = 0; iterator < 10 ; iterator++)
-		_putchar('iterator');
+	{
+		_putchar(i + '0');
+	}
 
 	_putchar('\n');
 }
